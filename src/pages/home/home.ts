@@ -16,7 +16,10 @@ export class HomePage {
 
   goToAbout() {
       //On change la page d'accueil par la page à propos au clic sur le bouton
-    this.navCtrl.setRoot(AboutPage);
+    //this.navCtrl.setRoot(AboutPage);
+
+      //Cela permet d'avoir la fleche de retour
+      this.navCtrl.push(AboutPage);
     
   }
 
